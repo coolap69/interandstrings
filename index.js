@@ -11,4 +11,5 @@ document.getElementById("submit").onclick = function() {
     // console.log(input)
     
 document.getElementById("display").innerHTML = input;
+document.getElementById("input").value = "";
 }
